@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelSim", "PixelSim.csproj", "{CA6F361D-D969-4401-B382-7EB78C229C62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	Release|Any CPU = Release|Any CPU
+	Tools|Any CPU = Tools|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA6F361D-D969-4401-B382-7EB78C229C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6F361D-D969-4401-B382-7EB78C229C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6F361D-D969-4401-B382-7EB78C229C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6F361D-D969-4401-B382-7EB78C229C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6F361D-D969-4401-B382-7EB78C229C62}.Tools|Any CPU.ActiveCfg = Tools|Any CPU
+		{CA6F361D-D969-4401-B382-7EB78C229C62}.Tools|Any CPU.Build.0 = Tools|Any CPU
+	EndGlobalSection
+EndGlobal

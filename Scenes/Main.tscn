@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scripts/CSharpSand.cs" type="Script" id=2]
+
+[sub_resource type="Shader" id=1]
+code = "shader_type canvas_item;
+
+void fragment()
+{
+	COLOR = vec4(1.0);
+}"
+
+[sub_resource type="ShaderMaterial" id=2]
+shader = SubResource( 1 )
+
+[sub_resource type="GDScript" id=3]
+script/source = "extends Node2D
+
+func _ready():
+	$CSharpSand.set_camera($Camera2D)
+"
+
+[node name="Main" type="Node2D"]
+material = SubResource( 2 )
+script = SubResource( 3 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="CSharpSand" type="Node2D" parent="."]
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="CSharpSand"]
+margin_right = 56.0
+margin_bottom = 14.0
+text = "C#"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+current = true
+zoom = Vector2( 0.5, 0.5 )
